@@ -1,7 +1,7 @@
 <?php
 require_once dirname(__FILE__) .  '/includes/classes/APICombiner.php';
 
-//header("Content-Type: application/json");
+header("Content-Type: application/json");
 
 if(!isset($_GET['place']))
     die("Your mom and I are disappointed in you.");

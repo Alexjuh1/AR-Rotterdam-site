@@ -18,8 +18,8 @@ class GooglePlaces extends API
     public function getImageByReference($ref)
     {
         $params = [
-            'maxwidth' => '400',
-            'maxheight' => '400',
+            'maxwidth' => '480',
+            'maxheight' => '640',
             'photoreference' => $ref,
             'key' => $this->apiKey,
         ];
